@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3745570528" file="/Users/dhruvgupta/Documents/MATLAB/Bath Year 2/Assaignment 2/Badminton Serve App.prj" location="/Users/dhruvgupta/Documents/MATLAB/Bath Year 2/Assaignment 2" name="Badminton Serve App" target="target.mlapps" target-name="Package App">
+    <param.appname>Badminton Serve App</param.appname>
+    <param.authnamewatermark>CN:11003</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Assignement 2 Extension App</param.summary>
+    <param.description>An app that simulates a shuttlecock serve, designed for use with a badminton playing robot</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/dhruvgupta/Documents/MATLAB/Bath Year 2/Assaignment 2</param.output>
+    <param.guid>84111bdc-7d66-43e6-9386-cdadcf5cb4a7</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/Badminton.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/ShootingXYZ.m</file>
+      <file>${PROJECT_ROOT}/ivpSolverXYZ.m</file>
+      <file>${PROJECT_ROOT}/stateDerivXYZ.m</file>
+      <file>${PROJECT_ROOT}/stepRungeKuttaXYZ.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/dhruvgupta/Documents/MATLAB/Bath Year 2" name="Assaignment 2" optional="false">/Users/dhruvgupta/Documents/MATLAB/Bath Year 2/Assaignment 2</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2017b.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.14.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
